@@ -22,3 +22,8 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 Code is licensed under the Apache 2.0 license.
 
 
+Modifications Made to HTML Files
+=================
+- added the line below to the three html files to link css file
+    <link rel="stylesheet" href="style.css">
+- changed the color of link, visited and hover
