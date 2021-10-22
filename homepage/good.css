@@ -1,0 +1,117 @@
+
+/* https://www.w3schools.com/css/css_navbar.asp */
+/* top navigation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(32, 68, 102)
+
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+li a {
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    display: block;    
+}
+
+li a:hover {
+    background-color: white ;
+    color: rgb(32, 68, 102)
+}
+
+
+/* https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp */
+.sideBar {
+    width: 20em; /* Set the width of the sidebar */
+    z-index: 1; /* Stay on top */
+    margin-top: 5em; /* Stay at the top */
+    margin-left :2em;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding: 2em 0 2em 0;
+    float: right;
+
+    border: 3px solid rgb(32, 68, 102);
+    border-radius: 1em;
+
+
+}
+
+.sideBar p {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 1.25em;
+    display: block;    
+    color: rgb(32, 68, 102);
+    font-style: italic;
+
+}
+
+hr {
+    border-top: 0.15em dashed rgb(22, 48, 71);
+    margin-top: 5em;
+}
+
+body {
+    background-color: rgb(222, 248, 253);
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+#title {
+    font: 2em Serif;
+    /* background-color:rgb(32, 68, 102); */
+    /* color: white; */
+    color:black;
+    /* height: 2.5em; */
+}
+
+#title h3 {
+    margin-left: 1em;
+    /* padding-top: 0.25em; */
+}
+
+.content {
+    /* margin-right: 8em; */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+.photo {
+    width: 30%;
+    border-radius: 50%;
+    float:left;
+    padding-right:2em;
+}
+
+#intro-text {
+    /* margin: 3em; */
+    padding: 1em;
+}
+
+p {
+    font: 11pt sans-serif;
+
+}
+
+.section {
+    margin-top: 2em;
+}
+
+
+
+
+div#license {
+    height: 4em;
+    margin-top: 2em;
+}
